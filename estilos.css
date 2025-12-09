@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.capa {
+    width: 300px;
+}
+
+.artilheiros, .classificacao,.time {
+    border-collapse: collapse;
+}
+
+.artilheiros th {
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+.classificacao td, .classificacao th, .time th, .time td {
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+.title {
+    background-color: green;
+    color: white;
+}
+
+img {
+    width: 20px;
+}
+
+.artilheiros td {    
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+}
+
+.titulo {
+    background-color: green;
+    color: white
+}
+
+.artilheiros tr:nth-child(even), .time tr:nth-child(even){
+    background-color: rgb(214, 211, 211);
+}
